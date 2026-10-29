@@ -5,10 +5,14 @@
     <title>Daftar Buku</title>
 </head>
 <body>
-    
+
 <h1>Daftar Buku</h1>
 
-
+<p>
+    <b>Nama:</b> Pandu Asmirikandhi<br>
+    <b>NIM:</b> 255150207111083<br>
+    <b>Kelas:</b> APS H Teknik Informatika
+</p>
 
 <table border="1">
     <tr><th>ID</th><th>Judul</th><th>Stok</th></tr>
@@ -19,9 +23,8 @@
     </tr>
 </table>
 
+<h2><a th:href="@{/buku/tambah}">Tambah Buku</a></h2>
+<h3><a th:href="@{/anggota}">Lihat Anggota</a></h3>
 
-<h2>
-<a th:href="@{/buku/tambah}"><h2>Tambah Buku</h2></a>
-<a th:href="@{/anggota}">Lihat Anggota</a>
 </body>
 </html>
